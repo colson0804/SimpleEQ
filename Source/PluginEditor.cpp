@@ -160,6 +160,8 @@ void SimpleEQAudioProcessorEditor::timerCallback()
         auto peakCoefficients = makePeakFilter(chainSettings, audioProcessor.getSampleRate());
         updateCoefficients(monoChain.get<ChainPositions::Peak>().coefficients, peakCoefficients);
         
+        
+        
         // signal a repaint
         repaint();
     }
