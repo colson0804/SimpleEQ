@@ -6,7 +6,8 @@
 //
 
 #include "LookAndFeel.h"
-#include "PluginEditor.h" // TODO: REMOVE THIS
+#include "RotarySliderWithLabels.h"
+#include "ToggleButtons.h"
 
 void LookAndFeel::drawRotarySlider (juce::Graphics& g,
                                     int x,

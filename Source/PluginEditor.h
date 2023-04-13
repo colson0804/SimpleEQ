@@ -9,7 +9,6 @@
 #pragma once
 
 #include <JuceHeader.h>
-#include "PluginProcessor.h"
 #include "LookAndFeel.h"
 #include "RotarySliderWithLabels.h"
 #include "ResponseCurveComponent.h"
