@@ -6,7 +6,6 @@
 //
 
 #include "LookAndFeel.h"
-
 #include "PluginEditor.h" // TODO: REMOVE THIS
 
 void LookAndFeel::drawRotarySlider (juce::Graphics& g,
